@@ -1,0 +1,67 @@
+{
+  "name": "explorer-file-filter",
+  "displayName": "Explorer File Filter",
+  "description": "Adds a Filter button to the Explorer toolbar that opens the file filter — the feature that should have been there by default.",
+  "version": "1.0.0",
+  "publisher": "mayerwin",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "explorer",
+    "filter",
+    "search",
+    "file",
+    "tree"
+  ],
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayerwin/explorer-file-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayerwin/explorer-file-filter/issues"
+  },
+  "homepage": "https://github.com/mayerwin/explorer-file-filter#readme",
+  "author": {
+    "name": "Erwin Mayer"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "explorerFileFilter.filter",
+        "title": "Filter Files in Explorer",
+        "icon": "$(search)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "explorerFileFilter.filter",
+          "when": "view == workbench.explorer.fileView",
+          "group": "navigation@99"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@vscode/vsce": "^3.2.1"
+  }
+}

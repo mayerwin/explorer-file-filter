@@ -1,0 +1,9 @@
+.vscode/**
+.gitignore
+.git/**
+node_modules/**
+images/**
+demo/**
+scripts/**
+PUBLISHING.md
+*.vsix
