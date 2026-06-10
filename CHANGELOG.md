@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Document the default filter shortcut (`Ctrl+Alt+F` on Windows/Linux, `⌥⌘F` on macOS) in the README.
+
 ## 1.0.0
 
 - Initial release.
