@@ -27,7 +27,7 @@ Press `Esc` to clear and close the filter.
 
 ## Why
 
-VS Code can already filter the Explorer tree, but the control is hidden behind a keyboard shortcut that many people never discover. This extension surfaces it as an obvious toolbar button, exactly where you'd expect to find it.
+VS Code can already filter the Explorer tree — when the Explorer is focused you can open the filter with `Ctrl+Alt+F` (Windows/Linux), `⌥⌘F` / `Cmd+Alt+F` (macOS), or `F3` — but that shortcut is hidden and many people never discover it. This extension surfaces the same filter as an obvious toolbar button, exactly where you'd expect to find it.
 
 ## Filter mode
 
