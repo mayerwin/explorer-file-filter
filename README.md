@@ -33,6 +33,16 @@ VS Code can already filter the Explorer tree — when the Explorer is focused yo
 
 So the filter **prunes** the tree (rather than only highlighting matches), the extension sets the built-in setting `workbench.list.defaultFindMode` to `filter` the first time it runs. This is a standard VS Code setting that applies to tree filters — you can change it back at any time in Settings.
 
+## Troubleshooting
+
+**The Filter button disappeared from the Explorer toolbar?**
+
+VS Code lets you hide toolbar buttons (through the `…` menu, or by right-clicking them). If the Filter button gets hidden, re-checking it in the `…` menu only returns it to the overflow menu — it won't re-pin to the toolbar. To bring the icon back:
+
+> **Right-click any Explorer toolbar icon (or the Explorer title bar) → "Reset Menu".**
+
+That restores the default toolbar, Filter button included. This is standard VS Code behavior and applies to every toolbar button, not just this one.
+
 ## Install
 
 - **Marketplace:** search for *Explorer File Filter* in the Extensions view, or install from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=mayerwin.explorer-file-filter).

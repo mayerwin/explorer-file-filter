@@ -2,7 +2,7 @@
   "name": "explorer-file-filter",
   "displayName": "Explorer File Filter",
   "description": "Adds a Filter button to the Explorer toolbar that opens the file filter — the feature that should have been there by default.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "mayerwin",
   "license": "MIT",
   "icon": "icon.png",
